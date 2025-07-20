@@ -1,157 +1,144 @@
 <div align="center">
   <a href="https://github.com/piyush-eon/ai-splitwise-clone">
-    <img src="./public/logos/logo.png" alt="SplitWise AI Logo" width="200">
+    <img src="./public/logos/logo.png" alt="SplitSage Logo" width="200" />
   </a>
 
-  # 💰 AI Splitwise Clone
+  <h1>💸 SplitSage</h1>
 
   <p align="center">
-    A modern expense sharing application with AI-powered insights
-    <br />
-    Built with Next.js 14, Convex, Tailwind CSS, Clerk Auth, and Inngest
-    <br />
-    <br />
-    <a href="#demo">View Demo</a>
-    ·
-    <a href="#features">Features</a>
-    ·
-    <a href="#getting-started">Getting Started</a>
+    <strong>Your intelligent expense-sharing companion</strong><br/>
+    Powered by AI, designed for friends, roommates, and teams
   </p>
 
-  ![GitHub stars](https://img.shields.io/github/stars/piyush-eon/ai-splitwise-clone?style=social)
-  ![Next.js](https://img.shields.io/badge/Next.js-14-black)
-  ![Tailwind](https://img.shields.io/badge/Tailwind-4.1.3-blue)
-  ![Convex](https://img.shields.io/badge/Convex-DB-orange)
-  ![License](https://img.shields.io/badge/License-MIT-green)
+  <p align="center">
+    Built with Next.js 14, Convex, Tailwind, Clerk, and Gemini AI
+    <br/><br/>
+    <a href="#demo">🖥️ View Demo</a> • 
+    <a href="#features">🚀 Features</a> • 
+    <a href="#getting-started">⚙️ Getting Started</a>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/piyush-eon/ai-splitwise-clone?style=social" />
+    <img src="https://img.shields.io/badge/Next.js-14-black" />
+    <img src="https://img.shields.io/badge/Tailwind-4.1.3-blue" />
+    <img src="https://img.shields.io/badge/Convex-DB-orange" />
+    <img src="https://img.shields.io/badge/License-MIT-green" />
+  </p>
 </div>
 
-## 🚀 About The Project
+---
 
-**AI Splitwise Clone** is a full-stack web application for tracking shared expenses among friends, roommates, and groups. It features smart settlement calculations, expense analytics, and AI-powered financial insights using Google's Gemini model.
+## ✨ What is SplitSage?
+
+**SplitSage** is a full-stack AI-enhanced expense sharing application for groups. Whether you're planning a trip, managing a shared apartment, or tracking group budgets — SplitSage helps you split costs fairly, analyze spending, and get personalized financial tips.
+
+> 💡 **AI-Powered by Gemini** — Get smart insights, saving advice, unusual spending alerts, and monthly breakdowns.
 
 ![Dashboard Preview](./public/hero.png)
 
-## ✨ Features
+---
 
-- 👥 **Group Expense Management** - Create groups for trips, events, or shared living
-- 💸 **Smart Settlement Algorithm** - Minimizes the number of transactions needed
-- 📊 **Expense Analytics** - Visualize spending patterns and category breakdowns
-- 🔔 **Payment Reminders** - Automated notifications for pending debts
-- 🧠 **AI-Powered Insights** - Monthly financial analysis using Google's Gemini AI
-- 🔄 **Real-time Updates** - Instant sync across all users with Convex
-- 🔒 **Secure Authentication** - User management with Clerk
+## 🔥 Key Features
 
-## 🛠️ Built With
+- 👥 **Group Expense Management** — Create shared groups for trips, households, events, etc.
+- 🔄 **Real-Time Sync** — All members see updates instantly (powered by Convex).
+- 💰 **Smart Settlement Algorithm** — Minimizes the number of transactions between users.
+- 📈 **Visual Analytics** — Charts, spending patterns, and category breakdowns.
+- 🧠 **Gemini AI Insights** — Monthly financial summaries with smart tips.
+- 🔔 **Payment Reminders** — Never miss a due amount.
+- 🔐 **Secure Auth** — Powered by Clerk for robust user management.
 
-- [Next.js 14](https://nextjs.org/) - React framework
-- [Convex](https://www.convex.dev/) - Backend database & real-time sync
-- [Clerk](https://clerk.com/) - Authentication & user management
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [Shadcn UI](https://ui.shadcn.com/) - UI components
-- [Inngest](https://www.inngest.com/) - Background jobs & scheduled tasks
-- [Resend](https://resend.com/) - Email notifications
-- [Google Gemini](https://ai.google.dev/) - AI-powered financial insights
+---
 
-## 🚦 Getting Started
+## 🧱 Tech Stack
 
-### Prerequisites
+| Frontend       | Backend/Infra       | AI & Utilities        |
+|----------------|---------------------|------------------------|
+| Next.js 14     | Convex (DB + Sync)  | Google Gemini AI      |
+| Tailwind CSS   | Inngest (Jobs)      | Resend (Email API)    |
+| Shadcn UI      | Clerk Auth          |                        |
 
-- Node.js 18+ and npm/yarn
-- Convex account
-- Clerk account
-- Resend account
-- Google AI (Gemini) API key
+---
 
-### Installation
+## ⚙️ Getting Started
 
-1. Clone the repository
-   ```sh
-   git clone https://github.com/piyush-eon/ai-splitwise-clone.git
-   cd ai-splitwise-clone
-   ```
+### ✅ Prerequisites
 
-2. Install dependencies
-   ```sh
-   npm install
-   ```
+Make sure you have the following installed or created:
 
-3. Create a `.env.local` file in the root directory with the following variables:
-   ```
-   # Deployment used by `npx convex dev`
-   CONVEX_DEPLOYMENT=
-   NEXT_PUBLIC_CONVEX_URL=
+- Node.js `v18+`
+- Accounts and API keys from:
+  - [Convex](https://www.convex.dev/)
+  - [Clerk](https://clerk.com)
+  - [Resend](https://resend.com)
+  - [Gemini AI](https://ai.google.dev/)
 
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-   CLERK_SECRET_KEY=
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-   CLERK_JWT_ISSUER_DOMAIN=
+---
 
-   RESEND_API_KEY=
-   GEMINI_API_KEY=
-   ```
+### 🧰 Setup Instructions
 
-4. Start the development server
-   ```sh
-   npm run dev
-   ```
-   In a separate terminal, run Convex dev server:
-   ```sh
-   npx convex dev
-   ```
-
-## 📝 Usage
-
-1. **Sign up/Sign in** - Create an account or log in
-2. **Create Groups** - Set up expense groups for your trips or shared housing
-3. **Add Expenses** - Record expenses and specify how they should be split
-4. **Settle Up** - View who owes whom and settle debts
-5. **Explore Insights** - Check out spending patterns and AI-powered recommendations
-
-## 🧠 Smart Features
-
-### AI-Powered Monthly Insights
-
-The application uses Google's Gemini AI to analyze spending patterns and provide personalized financial advice to users monthly, including:
-
-- Spending trend analysis
-- Category-wise breakdowns
-- Personalized saving tips
-- Unusual spending alerts
-
-### Intelligent Settlement Algorithm
-
-The system calculates the optimal way to settle debts within a group to minimize the number of transactions required.
-
-## 🗺️ Roadmap
-
-- [ ] Mobile application
-- [ ] Currency conversion
-- [ ] Custom expense categories
-- [ ] Receipt scanning & OCR
-- [ ] Advanced analytics dashboard
-
-## � License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## 🔗 Environment Setup
+#### 1. Clone the Repository
 
 ```bash
-# Deployment used by `npx convex dev`
-CONVEX_DEPLOYMENT=
+git clone https://github.com/piyush-eon/ai-splitwise-clone.git
+cd ai-splitwise-clone
+```
 
-NEXT_PUBLIC_CONVEX_URL=
+#### 2. Install Dependencies
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
+#### 3. Configure Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+# Convex configuration
+CONVEX_DEPLOYMENT=your_convex_deployment_id
+NEXT_PUBLIC_CONVEX_URL=https://your-deployment-id.convex.cloud
+
+# Clerk authentication
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_************
+CLERK_SECRET_KEY=sk_test_************
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+CLERK_JWT_ISSUER_DOMAIN=https://your-domain.clerk.accounts.dev
 
-CLERK_JWT_ISSUER_DOMAIN=
+# Email service (Resend)
+RESEND_API_KEY=re_************
 
-RESEND_API_KEY=
-
-GEMINI_API_KEY=
+# AI service (Google's Gemini)
+GEMINI_API_KEY=AIza************
 ```
+
+> 💡 **Note**: You'll need to replace the placeholders with your actual API keys and credentials from each service.
+
+#### 4. Initialize Convex
+
+```bash
+npx convex dev
+```
+
+#### 5. Run the Development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Your app should now be running at [http://localhost:3000](http://localhost:3000)!
+
+---
+
+
+
