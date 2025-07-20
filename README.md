@@ -10,17 +10,17 @@
   <p align="center">
     Built with Next.js 14, Convex, Tailwind, Clerk, and Gemini AI
     <br/><br/>
-    <a href="#demo">🖥️ View Demo</a> • 
+    <a href="splitr-orpin.vercel.app">🖥️ View Demo</a> • 
     <a href="#features">🚀 Features</a> • 
     <a href="#getting-started">⚙️ Getting Started</a>
   </p>
 
   <p align="center">
-    <img src="https://img.shields.io/github/stars/piyush-eon/ai-splitwise-clone?style=social" />
+<!--     <img src="https://img.shields.io/github/stars/piyush-eon/ai-splitwise-clone?style=social" /> -->
     <img src="https://img.shields.io/badge/Next.js-14-black" />
     <img src="https://img.shields.io/badge/Tailwind-4.1.3-blue" />
     <img src="https://img.shields.io/badge/Convex-DB-orange" />
-    <img src="https://img.shields.io/badge/License-MIT-green" />
+<!--     <img src="https://img.shields.io/badge/License-MIT-green" /> -->
   </p>
 </div>
 
