@@ -1,8 +1,5 @@
 <div align="center">
-  <a href="https://github.com/piyush-eon/ai-splitwise-clone">
     <img src="./public/logos/logo.png" alt="SplitSage Logo" width="200" />
-  </a>
-
   <h1>💸 Splitr</h1>
 
   <p align="center">
@@ -81,7 +78,7 @@ Make sure you have the following installed or created:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/piyush-eon/ai-splitwise-clone.git
+git clone https://github.com/Source-code495/SplitWise.git
 cd ai-splitwise-clone
 ```
 
