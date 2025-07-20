@@ -3,7 +3,7 @@
     <img src="./public/logos/logo.png" alt="SplitSage Logo" width="200" />
   </a>
 
-  <h1>💸 SplitSage</h1>
+  <h1>💸 Splitr</h1>
 
   <p align="center">
     <strong>Your intelligent expense-sharing companion</strong><br/>
@@ -29,9 +29,9 @@
 
 ---
 
-## ✨ What is SplitSage?
+## ✨ What is Splitr?
 
-**SplitSage** is a full-stack AI-enhanced expense sharing application for groups. Whether you're planning a trip, managing a shared apartment, or tracking group budgets — SplitSage helps you split costs fairly, analyze spending, and get personalized financial tips.
+**Splitr** is a full-stack AI-enhanced expense sharing application for groups. Whether you're planning a trip, managing a shared apartment, or tracking group budgets — Splitr helps you split costs fairly, analyze spending, and get personalized financial tips.
 
 > 💡 **AI-Powered by Gemini** — Get smart insights, saving advice, unusual spending alerts, and monthly breakdowns.
 
